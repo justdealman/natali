@@ -620,3 +620,16 @@ button::-moz-focus-inner {
 .buttons a:first-child {
 	margin-left:0;
 }
+
+.footersocial {
+	position:absolute;
+	left:354px;
+	top:px;
+	width:200px;
+	text-align:center;
+	margin:0;
+}
+.footersocial li {
+	display:inline-block;
+	margin:0 2px;
+}
