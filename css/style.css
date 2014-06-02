@@ -220,10 +220,17 @@ button::-moz-focus-inner {
 	behavior:url('./pie.htc');
 }
 .sidebar .nav li a:hover {
-	background-position:0 -58px;
+	background-position:0 -58px !important;
 	-webkit-box-shadow:inset -1px -1px 0 #ffffff;
 	-moz-box-shadow:inset -1px -1px 0 #ffffff;
 	box-shadow:inset -1px -1px 0 #ffffff;
+}
+.sidebar .nav li.find a {
+	background:url('../img/nav_find_li.png') repeat-x top;
+	border:2px solid #cfcfcf;
+	-webkit-box-shadow:none !important;
+	-moz-box-shadow:none !important;
+	box-shadow:none !important;
 }
 .sidebar .nav li a div {
 	position:relative;
