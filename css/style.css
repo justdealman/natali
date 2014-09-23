@@ -365,6 +365,9 @@ button::-moz-focus-inner {
 	text-align:center;
 	margin:-21px 0 0 -82px;
 }
+.sidebar .gift a div p span {
+	font-size:18px;
+}
 .main-content .slider {
 	margin:5px 0 27px;
 }
